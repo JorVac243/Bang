@@ -1,0 +1,751 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Passion One", cursive;
+  background-image: url("Imagenes/FONDOOO.jpg");
+  background-size: 900%;
+}
+
+img {
+  max-width: 80%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  padding: 0.5rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: #ffa420;
+}
+
+.clase img {
+  width: 300px;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+}
+
+.nav__item {
+  margin-left: 2rem;
+}
+
+.nav__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-size: 30px;
+}
+
+.intro-section {
+  padding-top: 8rem;
+}
+
+.display-2--intro {
+  font-weight: 100;
+  font-size: 100px;
+  color: black;
+  text-align: center;
+}
+
+.display-2-description {
+  text-transform: capitalize;
+  color: black;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.sub-titulo {
+  font-size: 2.3rem;
+  margin: 3rem;
+  padding: 0.5rem;
+  color: black;
+  font-size: 40px;
+  text-align: center;
+}
+
+.productos-section {
+  display: inline-block;
+  text-align: center;
+}
+
+.MART {
+  border: 10px solid #212121;
+  display: inline-block;
+  padding: 1.5rem;
+  margin: 1.5rem;
+  color: black;
+}
+
+.MART-PP {
+  width: 400px;
+  height: 400px;
+}
+
+.HARLY {
+  border: 10px solid #212121;
+  display: inline-block;
+  padding: 1.5rem;
+  margin: 1.5rem;
+  color: black;
+}
+
+.HARLY-PP {
+  width: 400px;
+  height: 400px;
+}
+
+.box2 {
+  font-size: 1.5rem;
+}
+
+.SAKURA {
+  border: 10px solid #212121;
+  display: inline-block;
+  padding: 1.5rem;
+  margin: 1.5rem;
+  color: black;
+}
+
+.SAKURA-PP {
+  width: 400px;
+  height: 400px;
+}
+
+.box3 {
+  font-size: 1.5rem;
+}
+
+.BAT {
+  border: 10px solid #212121;
+  display: inline-block;
+  margin: 6rem;
+  padding: 1.5rem;
+  margin: 1.5rem;
+  color: black;
+}
+
+.BAT-PP {
+  width: 400px;
+  height: 400px;
+}
+
+.box4 {
+  font-size: 1.5rem;
+}
+
+.desplegables {
+  font-size: 2.5rem;
+  height: 1.5rem;
+  margin: 4rem;
+  padding: 1.5rem;
+  text-align: center;
+  display: flex;
+}
+
+.aniprodu {
+  text-align: center;
+  font-size: 1.4rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.seven {
+  border: 10px solid #212121;
+  display: inline-block;
+  padding: 1.5rem;
+  margin: 1.5rem;
+}
+
+.an1 {
+  width: 800px;
+  height: 279px;
+}
+
+.ball {
+  border: 10px solid #212121;
+  display: inline-block;
+  padding: 1.5rem;
+  margin: 1.5rem;
+}
+
+.an2 {
+  width: 800px;
+  height: 300px;
+}
+
+.eva {
+  border: 10px solid #212121;
+  display: inline-block;
+  padding: 1.5rem;
+  margin: 1.5rem;
+}
+
+.an3 {
+  width: 800px;
+  height: 300px;
+}
+
+.tokyo {
+  border: 10px solid #212121;
+  display: inline-block;
+  padding: 1.5rem;
+  margin: 1.5rem;
+}
+
+.an4 {
+  width: 800px;
+  height: 300px;
+}
+
+.demon {
+  border: 10px solid #212121;
+  display: inline-block;
+  padding: 1.5rem;
+  margin: 1.5rem;
+}
+
+.an5 {
+  width: 800px;
+  height: 300px;
+}
+
+.yugi {
+  border: 10px solid #212121;
+  display: inline-block;
+  padding: 1.5rem;
+  margin: 1.5rem;
+}
+
+.an6 {
+  width: 800px;
+  height: 300px;
+}
+
+.sailor {
+  border: 10px solid #212121;
+  display: inline-block;
+  padding: 1.5rem;
+  margin: 1.5rem;
+}
+
+.an7 {
+  width: 800px;
+  height: 300px;
+}
+
+.mercury {
+  border: 10px solid #212121;
+  display: inline-block;
+  padding: 1.5rem;
+  margin: 1.5rem;
+}
+
+.an8 {
+  width: 800px;
+  height: 300px;
+}
+
+.comprodu {
+  text-align: center;
+  font-size: 1.4rem;
+  margin: 1.5rem;
+  padding: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.spi {
+  border: 10px solid #212121;
+  display: inline-block;
+  padding: 0.5rem;
+  margin: 1.5rem;
+}
+
+.com1 {
+  width: 700px;
+  height: 300px;
+}
+
+.black {
+  border: 10px solid #212121;
+  display: inline-block;
+  padding: 0.5rem;
+  margin: 1.5rem;
+}
+
+.com2 {
+  width: 700px;
+  height: 300px;
+}
+
+.batm {
+  border: 10px solid #212121;
+  display: inline-block;
+  padding: 0.5rem;
+  margin: 1.5rem;
+}
+
+.com3 {
+  width: 700px;
+  height: 300px;
+}
+
+.hul {
+  border: 10px solid #212121;
+  display: inline-block;
+  padding: 1.3rem;
+  margin: 1.5rem;
+}
+
+.com4 {
+  width: 700px;
+  height: 300px;
+}
+
+.jok {
+  border: 10px solid #212121;
+  display: inline-block;
+  padding: 0.5rem;
+  margin: 1.5rem;
+}
+
+.com5 {
+  width: 700px;
+  height: 300px;
+}
+
+.spa {
+  border: 10px solid #212121;
+  display: inline-block;
+  padding: 0.5rem;
+  margin: 1.5rem;
+}
+
+.com6 {
+  width: 700px;
+  height: 300px;
+}
+
+.ww {
+  border: 10px solid #212121;
+  display: inline-block;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.com7 {
+  width: 700px;
+  height: 300px;
+}
+
+.martillo {
+  border: 10px solid #212121;
+  display: inline-block;
+  padding: 1.3rem;
+  margin: 1.5rem;
+}
+
+.com8 {
+  width: 700px;
+  height: 300px;
+}
+
+.titu {
+  font-size: 2.5rem;
+  height: 1.5rem;
+  margin: 4rem;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.noveprodu {
+  text-align: center;
+  font-size: 1.4rem;
+  margin: 1.5rem;
+  padding: 1.5rem;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.poke {
+  border: 10px solid #212121;
+  display: inline-block;
+  padding: 0.5rem;
+  margin: 1.5rem;
+}
+
+.nov1 {
+  width: 700px;
+  height: 300px;
+}
+
+.sei {
+  border: 10px solid #212121;
+  display: inline-block;
+  padding: 0.3rem;
+  margin: 1rem;
+}
+
+.nov2 {
+  width: 700px;
+  height: 300px;
+}
+
+.bruja {
+  border: 10px solid #212121;
+  display: inline-block;
+  padding: 0.5rem;
+  margin: 1.5rem;
+}
+
+.nov3 {
+  width: 700px;
+  height: 300px;
+}
+
+.venga {
+  border: 10px solid #212121;
+  display: inline-block;
+  padding: 0.5rem;
+  margin: 1.5rem;
+}
+
+.nov4 {
+  width: 700px;
+  height: 300px;
+}
+
+.shum {
+  border: 10px solid #212121;
+  display: inline-block;
+  padding: 0.1rem;
+  margin: 1rem;
+}
+
+.nov5 {
+  width: 900px;
+  height: 300px;
+}
+
+.berse {
+  border: 10px solid #212121;
+  padding: 0.5rem;
+}
+
+.nov6 {
+  width: 900px;
+  height: 300px;
+}
+
+.mus {
+  border: 10px solid #212121;
+  display: inline-block;
+  padding: 0.5rem;
+  margin: 1.3rem;
+}
+
+.nov7 {
+  width: 900px;
+  height: 300px;
+}
+
+.aqua {
+  border: 10px solid #212121;
+  display: inline-block;
+  padding: 0.5rem;
+  margin: 1.3rem;
+}
+
+.nov8 {
+  width: 900px;
+  height: 300px;
+}
+
+.conta {
+  font-size: 50px;
+  text-align: center;
+  margin: 1.5rem;
+  padding: 1.5rem;
+}
+
+.formu {
+  font-size: 30px;
+  text-align: center;
+}
+
+.datospersonal {
+  justify-content: space-between;
+  padding: 1.5rem;
+  margin: 0.5rem;
+}
+
+.env {
+  font-size: 30px;
+}
+
+.como {
+  font-size: 30px;
+}
+
+.puntos {
+  text-align: center;
+  display: flex;
+}
+
+.footer-bottom {
+  padding: 1.5rem 0;
+}
+
+.footer-bottom__copyright {
+  text-align: center;
+  color: grey;
+  font-size: 15px;
+}
+.footer-bottom__copyright a {
+  color: grey;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.footer {
+  background-color: black;
+}
+.footer-sm {
+  background-color: #212121;
+}
+
+.footer-sm a {
+  color: white;
+}
+
+.footer-sm a i {
+  font-size: 1rem;
+}
+
+.footer-sm__icons {
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.buscar {
+  font-size: 20px;
+}
+
+#grilla {
+  padding: 1rem;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 12rem 1fr;
+  min-height: 100vh;
+  grid-gap: 1rem;
+  grid-template-areas:
+    "header header"
+    "main main"
+    "footer footer";
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}
+
+nav {
+  grid-area: nav;
+}
+
+#grilla1 {
+  padding: 1rem;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 12rem 1fr;
+  min-height: 100vh;
+  grid-gap: 1rem;
+  grid-template-areas:
+    "header header"
+    "main main"
+    "section section"
+    "footer footer";
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+}
+
+section {
+  grid-area: section;
+}
+
+footer {
+  grid-area: footer;
+}
+
+#grilla2 {
+  padding: 1rem;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 12rem 1fr;
+  min-height: 100vh;
+  grid-gap: 1rem;
+  grid-template-areas:
+    "header header"
+    "main main"
+    "section section"
+    "footer footer";
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+}
+
+section {
+  grid-area: section;
+}
+
+footer {
+  grid-area: footer;
+}
+
+#grilla3 {
+  padding: 1rem;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 12rem 1fr;
+  min-height: 100vh;
+  grid-gap: 1rem;
+  grid-template-areas:
+    "header header"
+    "main main"
+    "footer footer";
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+}
+
+section {
+  grid-area: section;
+}
+
+footer {
+  grid-area: footer;
+}
+
+#grilla4 {
+  padding: 1rem;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 12rem 1fr;
+  min-height: 100vh;
+  grid-gap: 1rem;
+  grid-template-areas:
+    "header header"
+    "main main"
+    "footer footer";
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+}
+
+section {
+  grid-area: section;
+}
+
+footer {
+  grid-area: footer;
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .row {
+    font-size: medium;
+  }
+
+  .nav__link {
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+  .display-2--intro {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .display-2-description {
+    font-size: 1.5rem;
+  }
+
+  .sub-titulo {
+    font-size: 2rem;
+  }
+
+  .productos-section {
+    width: 80%;
+  }
+
+  .desplegables {
+    margin: auto;
+    padding: 3rem;
+  }
+
+  .aniprodu {
+    margin: 3rem;
+  }
+
+  .comprodu {
+    padding: 2.5rem;
+  }
+
+  .datospersonal {
+    margin: 10%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .nav__link {
+    font-size: 3rem;
+    text-align: center;
+  }
+}
