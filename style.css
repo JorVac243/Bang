@@ -614,6 +614,7 @@ footer {
   grid-template-areas:
     "header header"
     "main main"
+    "section section"
     "footer footer";
 }
 
@@ -768,5 +769,36 @@ footer {
   }
   .row-imaprod2 {
     display: flex;
+  }
+  .comprodu {
+    width: auto;
+  }
+
+  .noveprodu {
+    width: auto;
+  }
+
+  .row-comprod-1 {
+    display: flex;
+    align-items: center;
+  }
+
+  .row-imaprod--2 {
+    display: flex;
+    align-items: center;
+  }
+
+  .row-noveprod {
+    display: flex;
+    align-items: center;
+  }
+
+  .row-noveprod--2 {
+    display: flex;
+    align-items: center;
+  }
+
+  .mapa {
+    width: 100%;
   }
 }
