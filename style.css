@@ -614,7 +614,6 @@ footer {
   grid-template-areas:
     "header header"
     "main main"
-    "section section"
     "footer footer";
 }
 
@@ -744,8 +743,30 @@ footer {
 }
 
 @media (min-width: 1200px) {
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
   .nav__link {
     font-size: 3rem;
     text-align: center;
+  }
+
+  .desplegables {
+    text-align: center;
+  }
+
+  .aniprodu {
+    width: auto;
+  }
+
+  .row-imaprod1 {
+    display: flex;
+    align-items: center;
+  }
+  .row-imaprod2 {
+    display: flex;
   }
 }
