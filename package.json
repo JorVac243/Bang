@@ -1,0 +1,12 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "description": "Bang!",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss:css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

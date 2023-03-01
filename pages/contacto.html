@@ -15,7 +15,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
     <link
       rel="shortcut icon"
       href="../imagenes/FAVICON.png"
@@ -30,25 +30,32 @@
           <div class="row">
             <a href="/" class="clase">
               <img src="../imagenes/LOGO.png" alt="logo de la empresa" />
+              <img src="../index.html" alt="" />
             </a>
-            <nav class="nav">
-              <ul class="nav__list">
-                <li class="nav__item">
-                  <a class="nav__link" href="../index.html">inicio</a>
-                </li>
-                <li class="nav__item">
-                  <a class="nav__link" href="./anime.html">anime</a>
-                </li>
-                <li class="nav__item">
-                  <a class="nav__link" href="./comic.html">comic</a>
-                </li>
-                <li class="nav__item">
-                  <a class="nav__link" href="./novedades.html">novedades</a>
-                </li>
-                <li class="nav__item">
-                  <a class="nav__link" href="./contacto.html">contacto</a>
-                </li>
-              </ul>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-item nav-link" href="./anime.html">Anime</a>
+                  <a class="nav-item nav-link" href="./comic.html">Comic</a>
+                  <a class="nav-item nav-link" href="./novedades.html"
+                    >Novedades</a
+                  >
+                  <a class="nav-item nav-link disabled" href="./contacto.html"
+                    >contacto</a
+                  >
+                </div>
+              </div>
             </nav>
           </div>
         </div>

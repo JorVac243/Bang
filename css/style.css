@@ -6,7 +6,7 @@
 
 body {
   font-family: "Passion One", cursive;
-  background-image: url("imagenes/FONDOOO.jpg");
+  background-image: url("../imagenes/FONDOOO.jpg");
   background-size: 900%;
 }
 
@@ -30,22 +30,6 @@ header {
 
 .clase img {
   width: 300px;
-}
-
-.nav__list {
-  list-style: none;
-  display: flex;
-}
-
-.nav__item {
-  margin-left: 2rem;
-}
-
-.nav__link {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: black;
-  font-size: 30px;
 }
 
 .intro-section {
@@ -704,11 +688,6 @@ footer {
     font-size: medium;
   }
 
-  .nav__link {
-    font-size: 13px;
-    font-weight: 400;
-  }
-
   .display-2--intro {
     font-size: 3rem;
     text-align: center;
@@ -748,11 +727,6 @@ footer {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-  }
-
-  .nav__link {
-    font-size: 3rem;
-    text-align: center;
   }
 
   .desplegables {
