@@ -753,6 +753,10 @@ footer {
     width: auto;
   }
 
+  .clase img {
+    width: 250px;
+  }
+
   .row-imaprod1 {
     display: flex;
     align-items: center;
