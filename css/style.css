@@ -26,6 +26,14 @@ header {
   width: 300px;
 }
 
+.navbar-nav {
+  font-size: 3.2rem;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
 .intro-section {
   padding-top: 8rem;
 }
@@ -521,6 +529,7 @@ header {
 
 .buscar {
   font-size: 20px;
+  color: aliceblue;
 }
 
 #grilla {
@@ -678,6 +687,15 @@ footer {
     text-align: center;
   }
 
+  .clase img {
+    max-width: 40%;
+    display: block;
+  }
+
+  .navbar-nav {
+    font-size: 1rem;
+  }
+
   .row {
     font-size: medium;
   }
@@ -721,6 +739,10 @@ footer {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+  }
+
+  .navbar-nav {
+    font-size: 2.5rem;
   }
 
   .desplegables {
