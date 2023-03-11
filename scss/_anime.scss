@@ -30,6 +30,18 @@ body {
   }
 
   main {
+    @mixin anicart {
+      border: 10px solid #212121;
+      padding: 1rem;
+      margin: 1rem;
+    }
+    @mixin anitama {
+      width: 200px;
+      height: 350px;
+    }
+    @mixin aniletra {
+      font-size: 1.2rem;
+    }
     .desplegables {
       font-size: 3rem;
       margin: 1rem;
@@ -38,88 +50,73 @@ body {
 
     .row-imaprod1 {
       text-align: center;
+
       .seven {
-        border: 10px solid #212121;
-        padding: 1rem;
-        margin: 1rem;
+        @include anicart;
+        animation: aniefe 1500ms ease infinite;
       }
       .an1 {
-        width: 200px;
-        height: 350px;
+        @include anitama;
       }
       .ball {
-        border: 10px solid #212121;
-        padding: 1rem;
-        margin: 1rem;
+        @include anicart;
+        animation: aniefe 1500ms ease infinite;
       }
       .an2 {
-        width: 200px;
-        height: 350px;
+        @include anitama;
       }
       .eva {
-        border: 10px solid #212121;
-        padding: 1rem;
-        margin: 1rem;
+        @include anicart;
+        animation: aniefe 1500ms ease infinite;
       }
 
       .an3 {
-        width: 200px;
-        height: 350px;
+        @include anitama;
       }
       .tokyo {
-        border: 10px solid #212121;
-        padding: 1rem;
-        margin: 1rem;
+        @include anicart;
+        animation: aniefe 1500ms ease infinite;
       }
 
       .an4 {
-        width: 200px;
-        height: 350px;
+        @include anitama;
       }
       p {
-        font-size: 1.2rem;
+        @include aniletra;
       }
     }
     .row-imaprod2 {
       text-align: center;
       .demon {
-        border: 10px solid #212121;
-        padding: 1rem;
-        margin: 1rem;
+        @include anicart;
+        animation: aniefe 1500ms ease infinite;
       }
       .an5 {
-        width: 200px;
-        height: 350px;
+        @include anitama;
       }
       .yugi {
-        border: 10px solid #212121;
-        padding: 1rem;
-        margin: 1rem;
+        @include anicart;
+        animation: aniefe 1500ms ease infinite;
       }
       .an6 {
-        width: 200px;
-        height: 350px;
+        @include anitama;
       }
       .sailor {
-        border: 10px solid #212121;
-        padding: 1rem;
-        margin: 1rem;
+        @include anicart;
+        animation: aniefe 1500ms ease infinite;
       }
       .an7 {
-        width: 200px;
-        height: 350px;
+        @include anitama;
       }
       .mercury {
-        border: 10px solid #212121;
-        padding: 1rem;
-        margin: 1rem;
+        @include anicart;
+        animation: aniefe 1500ms ease infinite;
       }
       .an8 {
-        width: 200px;
-        height: 350px;
+        @include anitama;
       }
       p {
-        font-size: 1.2rem;
+        @include aniletra;
       }
     }
   }
@@ -145,5 +142,28 @@ body {
       width: 100%;
       align-items: center;
     }
+  }
+}
+
+p {
+  --bg-size: 400%;
+  --color-one: rgb(247, 11, 11);
+  --color-two: rgb(0, 0, 0);
+  font-size: clamp(3rem, 25vmin, 12rem);
+  background: linear-gradient(
+      90deg,
+      var(--color-one),
+      var(--color-two),
+      var(--color-one)
+    )
+    0 0 / var(--bg-size) 100%;
+  animation: color-anim 4s infinite linear;
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+@keyframes color-anim {
+  to {
+    background-position: var(--bg-size) 0;
   }
 }

@@ -29,6 +29,19 @@ body {
   }
 
   main {
+    @mixin novecart {
+      border: 10px solid #212121;
+      padding: 1rem;
+      margin: 1rem;
+    }
+    @mixin novetama {
+      width: 200px;
+      height: 350px;
+    }
+    @mixin novletra {
+      font-size: 1.2rem;
+      text-align: center;
+    }
     .titul {
       h1 {
         text-align: center;
@@ -39,92 +52,66 @@ body {
       .row-noveprod {
         text-align: center;
         .poke {
-          border: 10px solid #212121;
-          padding: 1rem;
-          margin: 1rem;
+          @include novecart;
         }
         .nov1 {
-          width: 200px;
-          height: 350px;
+          @include novetama;
         }
 
         .sei {
-          border: 10px solid #212121;
-          padding: 1rem;
-          margin: 1rem;
+          @include novecart;
         }
         .nov2 {
-          width: 200px;
-          height: 350px;
+          @include novetama;
         }
 
         .bruja {
-          border: 10px solid #212121;
-          padding: 1rem;
-          margin: 1rem;
+          @include novecart;
         }
         .nov3 {
-          width: 200px;
-          height: 350px;
+          @include novetama;
         }
         .venga {
-          border: 10px solid #212121;
-          padding: 1rem;
-          margin: 1rem;
+          @include novecart;
         }
         .nov4 {
-          width: 200px;
-          height: 350px;
+          @include novetama;
         }
 
         p {
-          font-size: 1.2rem;
-          text-align: center;
+          @include novletra;
         }
       }
       .row-noveprod--2 {
         text-align: center;
         .shum {
-          border: 10px solid #212121;
-          padding: 1rem;
-          margin: 1rem;
+          @include novecart;
         }
         .nov5 {
-          width: 230px;
-          height: 350px;
+          @include novetama;
         }
 
         .berse {
-          border: 10px solid #212121;
-          padding: 1rem;
-          margin: 1rem;
+          @include novecart;
         }
         .nov6 {
-          width: 200px;
-          height: 350px;
+          @include novetama;
         }
 
         .mus {
-          border: 10px solid #212121;
-          padding: 1rem;
-          margin: 1rem;
+          @include novecart;
         }
         .nov7 {
-          width: 200px;
-          height: 350px;
+          @include novetama;
         }
         .aqua {
-          border: 10px solid #212121;
-          padding: 1rem;
-          margin: 1rem;
+          @include novecart;
         }
         .nov8 {
-          width: 200px;
-          height: 350px;
+          @include novetama;
         }
         p {
-          font-size: 1.2rem;
-          text-align: center;
+          @include novletra;
         }
       }
     }

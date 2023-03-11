@@ -30,104 +30,91 @@ body {
   }
 
   section {
+    @mixin animecartas {
+      border: 10px solid #212121;
+      padding: 1rem;
+      margin: 1rem;
+    }
+    @mixin tamanocarta {
+      width: 200px;
+      height: 350px;
+    }
+    @mixin letra {
+      font-size: 1.2rem;
+      text-align: center;
+    }
     .row-comprod-1 {
       display: flex;
-      margin-left: 5%;
+      margin-left: 4%;
 
       .spi {
-        border: 10px solid #212121;
-        padding: 1rem;
-        margin: 1rem;
+        @include animecartas;
       }
       .com1 {
-        width: 200px;
-        height: 350px;
+        @include tamanocarta;
       }
       .black {
-        border: 10px solid #212121;
-        padding: 1rem;
-        margin: 1rem;
+        @include animecartas;
       }
 
       .com2 {
-        width: 200px;
-        height: 350px;
+        @include tamanocarta;
       }
 
       .batm {
-        border: 10px solid #212121;
-        padding: 1rem;
-        margin: 1rem;
+        @include animecartas;
       }
 
       .com3 {
-        width: 200px;
-        height: 350px;
+        @include tamanocarta;
       }
 
       .hul {
-        border: 10px solid #212121;
-        padding: 1rem;
-        margin: 1rem;
+        @include animecartas;
       }
 
       .com4 {
-        width: 200px;
-        height: 350px;
+        @include tamanocarta;
       }
       p {
-        font-size: 1.2rem;
-        text-align: center;
+        @include letra;
       }
     }
     .row-imaprod--2 {
+      margin-left: 4%;
       display: flex;
-      margin-left: 5%;
       .jok {
-        border: 10px solid #212121;
-        padding: 1rem;
-        margin: 1rem;
+        @include animecartas;
       }
       .com5 {
-        width: 200px;
-        height: 350px;
+        @include tamanocarta;
       }
 
       .spa {
-        border: 10px solid #212121;
-        padding: 1rem;
-        margin: 1rem;
+        @include animecartas;
       }
 
       .com6 {
-        width: 200px;
-        height: 350px;
+        @include tamanocarta;
       }
 
       .ww {
-        border: 10px solid #212121;
-        padding: 1rem;
-        margin: 1rem;
+        @include animecartas;
       }
 
       .com7 {
-        width: 200px;
-        height: 350px;
+        @include tamanocarta;
       }
 
       .martillo {
-        border: 10px solid #212121;
-        padding: 1rem;
-        margin: 1rem;
+        @include animecartas;
       }
 
       .com8 {
-        width: 200px;
-        height: 350px;
+        @include tamanocarta;
       }
       p {
-        font-size: 1.2rem;
-        text-align: center;
+        @include letra;
       }
     }
   }
@@ -144,19 +131,7 @@ body {
   }
   @media (min-width: 1200px) {
     main {
-      .desplegables {
-        .container {
-          margin-left: 10rem;
-        }
-      }
-    }
-    section {
-      .row-comprod-1 {
-        margin-left: 1%;
-      }
-      .row-imaprod--2 {
-        margin-left: 1%;
-      }
+      text-align: center;
     }
   }
 }
