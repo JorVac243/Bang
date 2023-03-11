@@ -1,0 +1,162 @@
+body {
+  #grilla2 {
+    padding: 1rem;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 12rem 1fr;
+    min-height: 100vh;
+    grid-gap: 1rem;
+    grid-template-areas:
+      "header header"
+      "main main"
+      "section section"
+      "footer footer";
+  }
+
+  header {
+    grid-area: header;
+  }
+
+  main {
+    grid-area: main;
+  }
+
+  section {
+    grid-area: section;
+  }
+
+  footer {
+    grid-area: footer;
+  }
+
+  section {
+    .row-comprod-1 {
+      display: flex;
+      margin-left: 5%;
+
+      .spi {
+        border: 10px solid #212121;
+        padding: 1rem;
+        margin: 1rem;
+      }
+      .com1 {
+        width: 200px;
+        height: 350px;
+      }
+      .black {
+        border: 10px solid #212121;
+        padding: 1rem;
+        margin: 1rem;
+      }
+
+      .com2 {
+        width: 200px;
+        height: 350px;
+      }
+
+      .batm {
+        border: 10px solid #212121;
+        padding: 1rem;
+        margin: 1rem;
+      }
+
+      .com3 {
+        width: 200px;
+        height: 350px;
+      }
+
+      .hul {
+        border: 10px solid #212121;
+        padding: 1rem;
+        margin: 1rem;
+      }
+
+      .com4 {
+        width: 200px;
+        height: 350px;
+      }
+      p {
+        font-size: 1.2rem;
+        text-align: center;
+      }
+    }
+    .row-imaprod--2 {
+      display: flex;
+      margin-left: 5%;
+      .jok {
+        border: 10px solid #212121;
+        padding: 1rem;
+        margin: 1rem;
+      }
+      .com5 {
+        width: 200px;
+        height: 350px;
+      }
+
+      .spa {
+        border: 10px solid #212121;
+        padding: 1rem;
+        margin: 1rem;
+      }
+
+      .com6 {
+        width: 200px;
+        height: 350px;
+      }
+
+      .ww {
+        border: 10px solid #212121;
+        padding: 1rem;
+        margin: 1rem;
+      }
+
+      .com7 {
+        width: 200px;
+        height: 350px;
+      }
+
+      .martillo {
+        border: 10px solid #212121;
+        padding: 1rem;
+        margin: 1rem;
+      }
+
+      .com8 {
+        width: 200px;
+        height: 350px;
+      }
+      p {
+        font-size: 1.2rem;
+        text-align: center;
+      }
+    }
+  }
+  @media (max-width: 480px) {
+    section {
+      text-align: center;
+      .row-comprod-1 {
+        display: inline-block;
+      }
+      .row-imaprod--2 {
+        display: inline-block;
+      }
+    }
+  }
+  @media (min-width: 1200px) {
+    main {
+      .desplegables {
+        .container {
+          margin-left: 10rem;
+        }
+      }
+    }
+    section {
+      .row-comprod-1 {
+        margin-left: 1%;
+      }
+      .row-imaprod--2 {
+        margin-left: 1%;
+      }
+    }
+  }
+}

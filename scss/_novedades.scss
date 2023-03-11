@@ -1,0 +1,159 @@
+body {
+  #grilla3 {
+    padding: 1rem;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 12rem 1fr;
+    min-height: 100vh;
+    grid-gap: 1rem;
+    grid-template-areas:
+      "header header"
+      "main main"
+      "footer footer";
+  }
+
+  header {
+    grid-area: header;
+  }
+
+  main {
+    grid-area: main;
+  }
+
+  section {
+    grid-area: section;
+  }
+
+  footer {
+    grid-area: footer;
+  }
+
+  main {
+    .titul {
+      h1 {
+        text-align: center;
+        font-size: 4rem;
+      }
+    }
+    .container {
+      .row-noveprod {
+        text-align: center;
+        .poke {
+          border: 10px solid #212121;
+          padding: 1rem;
+          margin: 1rem;
+        }
+        .nov1 {
+          width: 200px;
+          height: 350px;
+        }
+
+        .sei {
+          border: 10px solid #212121;
+          padding: 1rem;
+          margin: 1rem;
+        }
+        .nov2 {
+          width: 200px;
+          height: 350px;
+        }
+
+        .bruja {
+          border: 10px solid #212121;
+          padding: 1rem;
+          margin: 1rem;
+        }
+        .nov3 {
+          width: 200px;
+          height: 350px;
+        }
+        .venga {
+          border: 10px solid #212121;
+          padding: 1rem;
+          margin: 1rem;
+        }
+        .nov4 {
+          width: 200px;
+          height: 350px;
+        }
+
+        p {
+          font-size: 1.2rem;
+          text-align: center;
+        }
+      }
+      .row-noveprod--2 {
+        text-align: center;
+        .shum {
+          border: 10px solid #212121;
+          padding: 1rem;
+          margin: 1rem;
+        }
+        .nov5 {
+          width: 230px;
+          height: 350px;
+        }
+
+        .berse {
+          border: 10px solid #212121;
+          padding: 1rem;
+          margin: 1rem;
+        }
+        .nov6 {
+          width: 200px;
+          height: 350px;
+        }
+
+        .mus {
+          border: 10px solid #212121;
+          padding: 1rem;
+          margin: 1rem;
+        }
+        .nov7 {
+          width: 200px;
+          height: 350px;
+        }
+        .aqua {
+          border: 10px solid #212121;
+          padding: 1rem;
+          margin: 1rem;
+        }
+        .nov8 {
+          width: 200px;
+          height: 350px;
+        }
+        p {
+          font-size: 1.2rem;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  main {
+    .container {
+      .row-noveprod {
+        width: 100%;
+        align-items: center;
+      }
+      .row-noveprod--2 {
+        width: 100%;
+        align-items: center;
+      }
+    }
+  }
+}
+@media (min-width: 1200px) {
+  main {
+    .container {
+      .row-noveprod {
+        display: flex;
+      }
+      .row-noveprod--2 {
+        display: flex;
+      }
+    }
+  }
+}

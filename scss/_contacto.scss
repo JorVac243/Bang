@@ -1,0 +1,99 @@
+body {
+  #grilla4 {
+    padding: 1rem;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 12rem 1fr;
+    min-height: 100vh;
+    grid-gap: 1rem;
+    grid-template-areas:
+      "header header"
+      "main main"
+      "footer footer";
+  }
+
+  header {
+    grid-area: header;
+  }
+
+  main {
+    grid-area: main;
+  }
+
+  section {
+    grid-area: section;
+  }
+
+  footer {
+    grid-area: footer;
+  }
+
+  main {
+    .container {
+      h1 {
+        text-align: center;
+        font-size: 3.5rem;
+      }
+      .env {
+        font-size: 2.5rem;
+      }
+      .formu {
+        text-align: center;
+        font-size: 2rem;
+
+        .datospersonal {
+          display: block;
+        }
+        .como {
+          display: block;
+        }
+
+        div {
+          display: block;
+        }
+      }
+      .mapa {
+        width: 100%;
+      }
+    }
+  }
+}
+@media (max-width: 480px) {
+  main {
+    .container {
+      h1 {
+        text-align: center;
+        font-size: 3.5rem;
+      }
+      .env {
+        font-size: 2.5rem;
+      }
+
+      .formu {
+        .datospersonal {
+          width: 60%;
+          margin-left: 3.5rem;
+        }
+        .como {
+          margin-left: 12%;
+          font-size: 100%;
+        }
+      }
+      .mapa {
+        width: 100%;
+      }
+      div {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+@media (min-width: 1200px) {
+  main {
+    .container {
+      h1 {
+        font-size: small;
+      }
+    }
+  }
+}
