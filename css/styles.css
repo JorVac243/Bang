@@ -1,7 +1,594 @@
+body #grilla1 {
+  padding: 1rem;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 12rem 1fr;
+  min-height: 100vh;
+  grid-gap: 1rem;
+  grid-template-areas: "header header" "main main" "section section" "footer footer";
+}
+body #grilla1 header {
+  grid-area: header;
+}
+body #grilla1 main {
+  grid-area: main;
+}
+body #grilla1 section {
+  grid-area: section;
+}
+body #grilla1 footer {
+  grid-area: footer;
+}
+body main .desplegables {
+  font-size: 3rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+body main .row-imaprod1 {
+  text-align: center;
+}
+body main .row-imaprod1 .seven {
+  border: 10px solid #212121;
+  padding: 1rem;
+  margin: 1rem;
+}
+body main .row-imaprod1 .an1 {
+  width: 200px;
+  height: 350px;
+}
+body main .row-imaprod1 .ball {
+  border: 10px solid #212121;
+  padding: 1rem;
+  margin: 1rem;
+}
+body main .row-imaprod1 .an2 {
+  width: 200px;
+  height: 350px;
+}
+body main .row-imaprod1 .eva {
+  border: 10px solid #212121;
+  padding: 1rem;
+  margin: 1rem;
+}
+body main .row-imaprod1 .an3 {
+  width: 200px;
+  height: 350px;
+}
+body main .row-imaprod1 .tokyo {
+  border: 10px solid #212121;
+  padding: 1rem;
+  margin: 1rem;
+}
+body main .row-imaprod1 .an4 {
+  width: 200px;
+  height: 350px;
+}
+body main .row-imaprod1 p {
+  font-size: 1.2rem;
+}
+body main .row-imaprod2 {
+  text-align: center;
+}
+body main .row-imaprod2 .demon {
+  border: 10px solid #212121;
+  padding: 1rem;
+  margin: 1rem;
+}
+body main .row-imaprod2 .an5 {
+  width: 200px;
+  height: 350px;
+}
+body main .row-imaprod2 .yugi {
+  border: 10px solid #212121;
+  padding: 1rem;
+  margin: 1rem;
+}
+body main .row-imaprod2 .an6 {
+  width: 200px;
+  height: 350px;
+}
+body main .row-imaprod2 .sailor {
+  border: 10px solid #212121;
+  padding: 1rem;
+  margin: 1rem;
+}
+body main .row-imaprod2 .an7 {
+  width: 200px;
+  height: 350px;
+}
+body main .row-imaprod2 .mercury {
+  border: 10px solid #212121;
+  padding: 1rem;
+  margin: 1rem;
+}
+body main .row-imaprod2 .an8 {
+  width: 200px;
+  height: 350px;
+}
+body main .row-imaprod2 p {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 480px) {
+  main .desplegables {
+    display: flex;
+  }
+}
+@media (min-width: 1200px) {
+  main .desplegables {
+    display: inline-flex;
+  }
+  main .row-imaprod1 {
+    width: 100%;
+    align-items: center;
+  }
+  main .row-imaprod2 {
+    width: 100%;
+    align-items: center;
+  }
+}
+body #grilla2 {
+  padding: 1rem;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 12rem 1fr;
+  min-height: 100vh;
+  grid-gap: 1rem;
+  grid-template-areas: "header header" "main main" "section section" "footer footer";
+}
+body header {
+  grid-area: header;
+}
+body main {
+  grid-area: main;
+}
+body section {
+  grid-area: section;
+}
+body footer {
+  grid-area: footer;
+}
+body section .row-comprod-1 {
+  display: flex;
+  margin-left: 5%;
+}
+body section .row-comprod-1 .spi {
+  border: 10px solid #212121;
+  padding: 1rem;
+  margin: 1rem;
+}
+body section .row-comprod-1 .com1 {
+  width: 200px;
+  height: 350px;
+}
+body section .row-comprod-1 .black {
+  border: 10px solid #212121;
+  padding: 1rem;
+  margin: 1rem;
+}
+body section .row-comprod-1 .com2 {
+  width: 200px;
+  height: 350px;
+}
+body section .row-comprod-1 .batm {
+  border: 10px solid #212121;
+  padding: 1rem;
+  margin: 1rem;
+}
+body section .row-comprod-1 .com3 {
+  width: 200px;
+  height: 350px;
+}
+body section .row-comprod-1 .hul {
+  border: 10px solid #212121;
+  padding: 1rem;
+  margin: 1rem;
+}
+body section .row-comprod-1 .com4 {
+  width: 200px;
+  height: 350px;
+}
+body section .row-comprod-1 p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+body section .row-imaprod--2 {
+  display: flex;
+  margin-left: 5%;
+}
+body section .row-imaprod--2 .jok {
+  border: 10px solid #212121;
+  padding: 1rem;
+  margin: 1rem;
+}
+body section .row-imaprod--2 .com5 {
+  width: 200px;
+  height: 350px;
+}
+body section .row-imaprod--2 .spa {
+  border: 10px solid #212121;
+  padding: 1rem;
+  margin: 1rem;
+}
+body section .row-imaprod--2 .com6 {
+  width: 200px;
+  height: 350px;
+}
+body section .row-imaprod--2 .ww {
+  border: 10px solid #212121;
+  padding: 1rem;
+  margin: 1rem;
+}
+body section .row-imaprod--2 .com7 {
+  width: 200px;
+  height: 350px;
+}
+body section .row-imaprod--2 .martillo {
+  border: 10px solid #212121;
+  padding: 1rem;
+  margin: 1rem;
+}
+body section .row-imaprod--2 .com8 {
+  width: 200px;
+  height: 350px;
+}
+body section .row-imaprod--2 p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+@media (max-width: 480px) {
+  body section {
+    text-align: center;
+  }
+  body section .row-comprod-1 {
+    display: inline-block;
+  }
+  body section .row-imaprod--2 {
+    display: inline-block;
+  }
+}
+@media (min-width: 1200px) {
+  body main .desplegables .container {
+    margin-left: 10rem;
+  }
+  body section .row-comprod-1 {
+    margin-left: 1%;
+  }
+  body section .row-imaprod--2 {
+    margin-left: 1%;
+  }
+}
+
+body #grilla3 {
+  padding: 1rem;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 12rem 1fr;
+  min-height: 100vh;
+  grid-gap: 1rem;
+  grid-template-areas: "header header" "main main" "footer footer";
+}
+body header {
+  grid-area: header;
+}
+body main {
+  grid-area: main;
+}
+body section {
+  grid-area: section;
+}
+body footer {
+  grid-area: footer;
+}
+body main .titul h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+body main .container .row-noveprod {
+  text-align: center;
+}
+body main .container .row-noveprod .poke {
+  border: 10px solid #212121;
+  padding: 1rem;
+  margin: 1rem;
+}
+body main .container .row-noveprod .nov1 {
+  width: 200px;
+  height: 350px;
+}
+body main .container .row-noveprod .sei {
+  border: 10px solid #212121;
+  padding: 1rem;
+  margin: 1rem;
+}
+body main .container .row-noveprod .nov2 {
+  width: 200px;
+  height: 350px;
+}
+body main .container .row-noveprod .bruja {
+  border: 10px solid #212121;
+  padding: 1rem;
+  margin: 1rem;
+}
+body main .container .row-noveprod .nov3 {
+  width: 200px;
+  height: 350px;
+}
+body main .container .row-noveprod .venga {
+  border: 10px solid #212121;
+  padding: 1rem;
+  margin: 1rem;
+}
+body main .container .row-noveprod .nov4 {
+  width: 200px;
+  height: 350px;
+}
+body main .container .row-noveprod p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+body main .container .row-noveprod--2 {
+  text-align: center;
+}
+body main .container .row-noveprod--2 .shum {
+  border: 10px solid #212121;
+  padding: 1rem;
+  margin: 1rem;
+}
+body main .container .row-noveprod--2 .nov5 {
+  width: 230px;
+  height: 350px;
+}
+body main .container .row-noveprod--2 .berse {
+  border: 10px solid #212121;
+  padding: 1rem;
+  margin: 1rem;
+}
+body main .container .row-noveprod--2 .nov6 {
+  width: 200px;
+  height: 350px;
+}
+body main .container .row-noveprod--2 .mus {
+  border: 10px solid #212121;
+  padding: 1rem;
+  margin: 1rem;
+}
+body main .container .row-noveprod--2 .nov7 {
+  width: 200px;
+  height: 350px;
+}
+body main .container .row-noveprod--2 .aqua {
+  border: 10px solid #212121;
+  padding: 1rem;
+  margin: 1rem;
+}
+body main .container .row-noveprod--2 .nov8 {
+  width: 200px;
+  height: 350px;
+}
+body main .container .row-noveprod--2 p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  main .container .row-noveprod {
+    width: 100%;
+    align-items: center;
+  }
+  main .container .row-noveprod--2 {
+    width: 100%;
+    align-items: center;
+  }
+}
+@media (min-width: 1200px) {
+  main .container .row-noveprod {
+    display: flex;
+  }
+  main .container .row-noveprod--2 {
+    display: flex;
+  }
+}
+body #grilla4 {
+  padding: 1rem;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 12rem 1fr;
+  min-height: 100vh;
+  grid-gap: 1rem;
+  grid-template-areas: "header header" "main main" "footer footer";
+}
+body header {
+  grid-area: header;
+}
+body main {
+  grid-area: main;
+}
+body section {
+  grid-area: section;
+}
+body footer {
+  grid-area: footer;
+}
+body main .container h1 {
+  text-align: center;
+  font-size: 3.5rem;
+}
+body main .container .env {
+  font-size: 2.5rem;
+}
+body main .container .formu {
+  text-align: center;
+  font-size: 2rem;
+}
+body main .container .formu .datospersonal {
+  display: block;
+}
+body main .container .formu .como {
+  display: block;
+}
+body main .container .formu div {
+  display: block;
+}
+body main .container .mapa {
+  width: 100%;
+}
+
+@media (max-width: 480px) {
+  main .container h1 {
+    text-align: center;
+    font-size: 3.5rem;
+  }
+  main .container .env {
+    font-size: 2.5rem;
+  }
+  main .container .formu .datospersonal {
+    width: 60%;
+    margin-left: 3.5rem;
+  }
+  main .container .formu .como {
+    margin-left: 12%;
+    font-size: 100%;
+  }
+  main .container .mapa {
+    width: 100%;
+  }
+  main .container div {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  main .container h1 {
+    font-size: small;
+  }
+}
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+}
+
+body {
+  font-family: "Passion One", cursive;
+  background-image: url("../imagenes/FONDOOO.jpg");
+  background-size: 900%;
+}
+body #grilla {
+  padding: 1rem;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 12rem 1fr;
+  min-height: 100vh;
+  grid-gap: 1rem;
+  grid-template-areas: "header header" "main main" "footer footer";
+}
+body #grilla header {
+  grid-area: header;
+}
+body #grilla main {
+  grid-area: main;
+}
+body #grilla footer {
+  grid-area: footer;
+}
+body #grilla nav {
+  grid-area: nav;
+}
+body header {
+  padding: 0.5rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: #ffa420;
+}
+body header .container .clase img {
+  width: 300px;
+  margin-left: 1rem;
+}
+body header nav {
+  font-size: 3.2rem;
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+}
+body main .container div {
+  display: inline-block;
+}
+body main .container .display-2--intro {
+  text-align: center;
+  font-size: 3.5rem;
+}
+body main .container .display-2-description {
+  font-size: 2rem;
+}
+body main .container .sub-titulo {
+  font-size: 3rem;
+  margin: 1rem;
+}
+body main .container .productos-section {
+  text-align: center;
+  width: 95%;
+}
+body main .container .productos-section .MART {
+  border: 10px solid #212121;
+  margin: 2.5rem;
+  padding: 2.5rem;
+}
+body main .container .productos-section .HARLY {
+  border: 10px solid #212121;
+  margin: 2.5rem;
+  padding: 2.5rem;
+}
+body main .container .productos-section .HARLY h3 {
+  font-size: 23px;
+}
+body main .container .productos-section .SAKURA {
+  border: 10px solid #212121;
+  margin: 2.5rem;
+  padding: 2.5rem;
+}
+body main .container .productos-section .SAKURA h4 {
+  font-size: 23px;
+}
+body main .container .productos-section .BAT {
+  border: 10px solid #212121;
+  margin: 2.5rem;
+  padding: 2.5rem;
+}
+body main .container .productos-section .BAT h5 {
+  font-size: 23px;
+}
+body main .container .productos-section p {
+  font-size: 25px;
+}
+body footer div {
+  font-size: 20px;
+  color: aliceblue;
+  text-align: center;
+  background-color: #212121;
+}
+body footer i {
+  display: block;
+}
+
+@media (max-width: 480px) {
+  header .clase img {
+    max-width: 40%;
+    margin-left: 1rem;
+  }
+  header .navbar-nav {
+    font-size: 1.5rem;
+    padding-right: 20%;
+    margin-top: -15%;
+  }
+  main .container .productos-section {
+    display: inline-block;
+  }
+}
+@media (min-width: 1200px) {
+  .container .clase img {
+    max-width: 20%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
