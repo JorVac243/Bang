@@ -540,38 +540,34 @@ body main .container .display-2-description {
   font-size: 2rem;
 }
 body main .container .sub-titulo {
-  font-size: 3rem;
+  font-size: 2rem;
   margin: 1rem;
-}
-body main .container .productos-section {
-  text-align: center;
-  width: 95%;
 }
 body main .container .productos-section .MART {
   border: 10px solid #212121;
-  margin: 2.5rem;
-  padding: 2.5rem;
+  margin: 1rem;
+  padding: 1rem;
 }
 body main .container .productos-section .HARLY {
   border: 10px solid #212121;
-  margin: 2.5rem;
-  padding: 2.5rem;
+  margin: 1rem;
+  padding: 1rem;
 }
 body main .container .productos-section .HARLY h3 {
   font-size: 23px;
 }
 body main .container .productos-section .SAKURA {
   border: 10px solid #212121;
-  margin: 2.5rem;
-  padding: 2.5rem;
+  margin: 1rem;
+  padding: 1rem;
 }
 body main .container .productos-section .SAKURA h4 {
   font-size: 23px;
 }
 body main .container .productos-section .BAT {
   border: 10px solid #212121;
-  margin: 2.5rem;
-  padding: 2.5rem;
+  margin: 1rem;
+  padding: 1rem;
 }
 body main .container .productos-section .BAT h5 {
   font-size: 23px;
@@ -597,10 +593,10 @@ body footer i {
   header .navbar-nav {
     font-size: 1.5rem;
     padding-right: 20%;
-    margin-top: -15%;
+    margin-top: -20%;
   }
-  main .container .productos-section {
-    display: inline-block;
+  main .container .productos-section img {
+    width: 60%;
   }
 }
 @media (min-width: 1200px) {
