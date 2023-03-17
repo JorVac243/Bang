@@ -519,15 +519,16 @@ body header {
   background-color: #ffa420;
 }
 body header .container .clase img {
-  width: 300px;
+  width: 200px;
   margin-left: 1rem;
 }
 body header nav {
-  font-size: 3.2rem;
+  font-size: 2.5rem;
   text-align: center;
   position: absolute;
   top: 30%;
-  left: 50%;
+  left: 40%;
+  font-weight: bold;
 }
 body main .container div {
   display: inline-block;
@@ -591,8 +592,7 @@ body footer i {
     margin-left: 1rem;
   }
   header .navbar-nav {
-    font-size: 23px;
-    padding-right: 20%;
+    font-size: 20px;
     margin-top: -10%;
   }
   main .container .productos-section img {
