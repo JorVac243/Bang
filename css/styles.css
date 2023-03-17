@@ -591,9 +591,9 @@ body footer i {
     margin-left: 1rem;
   }
   header .navbar-nav {
-    font-size: 1.5rem;
+    font-size: 23px;
     padding-right: 20%;
-    margin-top: -20%;
+    margin-top: -10%;
   }
   main .container .productos-section img {
     width: 60%;
