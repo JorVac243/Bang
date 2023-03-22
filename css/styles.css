@@ -507,11 +507,9 @@ body main .container .formu .mapa {
     font-size: 30px;
     text-align: center;
   }
-  body main .container .formu div {
-    text-align: center;
-  }
   body main .container .formu div textarea {
-    width: 25rem;
+    width: 100%;
+    height: 50%;
   }
   body main .container .mapa {
     width: 100%;
