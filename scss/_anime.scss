@@ -36,87 +36,95 @@ body {
       margin: 1rem;
     }
     @mixin anitama {
-      width: 200px;
-      height: 350px;
+      width: 185px;
+      height: 300px;
     }
     @mixin aniletra {
       font-size: 1.2rem;
     }
     .desplegables {
-      font-size: 3rem;
+      display: flex;
+      font-size: 30px;
       margin: 1rem;
       padding: 1rem;
-    }
 
-    .row-imaprod1 {
-      text-align: center;
-
-      .seven {
-        @include anicart;
-        animation: aniefe 1500ms ease infinite;
-      }
-      .an1 {
-        @include anitama;
-      }
-      .ball {
-        @include anicart;
-        animation: aniefe 1500ms ease infinite;
-      }
-      .an2 {
-        @include anitama;
-      }
-      .eva {
-        @include anicart;
-        animation: aniefe 1500ms ease infinite;
-      }
-
-      .an3 {
-        @include anitama;
-      }
-      .tokyo {
-        @include anicart;
-        animation: aniefe 1500ms ease infinite;
-      }
-
-      .an4 {
-        @include anitama;
-      }
-      p {
-        @include aniletra;
+      select {
+        width: 30%;
+        height: 40%;
+        margin-top: auto;
+        font-size: 50%;
       }
     }
-    .row-imaprod2 {
-      text-align: center;
-      .demon {
-        @include anicart;
-        animation: aniefe 1500ms ease infinite;
+    .container {
+      .row-imaprod1 {
+        display: inline-flex;
+        .seven {
+          @include anicart;
+          animation: aniefe 1500ms ease infinite;
+        }
+        .an1 {
+          @include anitama;
+        }
+        .ball {
+          @include anicart;
+          animation: aniefe 1500ms ease infinite;
+        }
+        .an2 {
+          @include anitama;
+        }
+        .eva {
+          @include anicart;
+          animation: aniefe 1500ms ease infinite;
+        }
+
+        .an3 {
+          @include anitama;
+        }
+        .tokyo {
+          @include anicart;
+          animation: aniefe 1500ms ease infinite;
+        }
+
+        .an4 {
+          @include anitama;
+        }
+        p {
+          @include aniletra;
+        }
       }
-      .an5 {
-        @include anitama;
-      }
-      .yugi {
-        @include anicart;
-        animation: aniefe 1500ms ease infinite;
-      }
-      .an6 {
-        @include anitama;
-      }
-      .sailor {
-        @include anicart;
-        animation: aniefe 1500ms ease infinite;
-      }
-      .an7 {
-        @include anitama;
-      }
-      .mercury {
-        @include anicart;
-        animation: aniefe 1500ms ease infinite;
-      }
-      .an8 {
-        @include anitama;
-      }
-      p {
-        @include aniletra;
+      .row-imaprod2 {
+        display: inline-flex;
+        .demon {
+          @include anicart;
+          animation: aniefe 1500ms ease infinite;
+        }
+        .an5 {
+          @include anitama;
+        }
+        .yugi {
+          @include anicart;
+          animation: aniefe 1500ms ease infinite;
+        }
+        .an6 {
+          @include anitama;
+        }
+        .sailor {
+          @include anicart;
+          animation: aniefe 1500ms ease infinite;
+        }
+        .an7 {
+          @include anitama;
+        }
+        .mercury {
+          @include anicart;
+          animation: aniefe 1500ms ease infinite;
+        }
+        .an8 {
+          @include anitama;
+        }
+        p {
+          @include aniletra;
+        }
       }
     }
   }
@@ -124,8 +132,23 @@ body {
 
 @media (max-width: 480px) {
   main {
-    .desplegables {
-      display: flex;
+    .container {
+      .aniprodu {
+        .row-imaprod1 {
+          display: inline-block;
+        }
+        .row-imaprod2 {
+          display: inline-block;
+        }
+      }
+
+      .desplegables {
+        width: 10rem;
+        height: 10rem;
+        label {
+          font-size: 40px;
+        }
+      }
     }
   }
 }

@@ -45,7 +45,6 @@ body {
     }
     .row-comprod-1 {
       display: flex;
-      margin-left: 4%;
 
       .spi {
         @include animecartas;
@@ -81,7 +80,6 @@ body {
       }
     }
     .row-imaprod--2 {
-      margin-left: 4%;
       display: flex;
       .jok {
         @include animecartas;

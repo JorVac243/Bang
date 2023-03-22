@@ -121,13 +121,16 @@ body {
 @media (max-width: 480px) {
   main {
     .container {
+      text-align: center;
       .row-noveprod {
-        width: 100%;
+        width: 70%;
         align-items: center;
+        display: inline-block;
       }
       .row-noveprod--2 {
-        width: 100%;
+        width: 70%;
         align-items: center;
+        display: inline-block;
       }
     }
   }
