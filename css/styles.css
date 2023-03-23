@@ -25,6 +25,9 @@ body main .desplegables {
   margin: 1rem;
   padding: 1rem;
 }
+body main .desplegables h2 {
+  width: 90%;
+}
 body main .desplegables select {
   width: 30%;
   height: 40%;
@@ -276,6 +279,9 @@ body section .row-imaprod--2 p {
   text-align: center;
 }
 @media (max-width: 480px) {
+  body main h1 {
+    text-align: center;
+  }
   body section {
     text-align: center;
   }
@@ -562,7 +568,6 @@ body header {
 body header .container nav .nav-item {
   margin-left: 10%;
   font-size: 30px;
-  font-weight: bold;
 }
 body header .container nav .navbar-toggler {
   border: 3px solid #212121;
