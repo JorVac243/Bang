@@ -126,11 +126,19 @@ body {
         width: 70%;
         align-items: center;
         display: inline-block;
+        img {
+          max-width: 90%;
+          max-height: 90%;
+        }
       }
       .row-noveprod--2 {
         width: 70%;
         align-items: center;
         display: inline-block;
+        img {
+          max-width: 90%;
+          max-height: 90%;
+        }
       }
     }
   }

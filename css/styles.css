@@ -419,10 +419,18 @@ body main .container .row-noveprod--2 p {
     align-items: center;
     display: inline-block;
   }
+  main .container .row-noveprod img {
+    max-width: 90%;
+    max-height: 90%;
+  }
   main .container .row-noveprod--2 {
     width: 70%;
     align-items: center;
     display: inline-block;
+  }
+  main .container .row-noveprod--2 img {
+    max-width: 90%;
+    max-height: 90%;
   }
 }
 @media (min-width: 1200px) {
